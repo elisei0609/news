@@ -37,33 +37,13 @@ a {
 
    &__wrapper {
       display: flex;
-      padding: 0 30px;
+      padding-right: 45px;
       justify-content: space-between;
       align-items: center;
    }
 
    &__logo {
       display: inline-block;
-      position: relative;
-      font-size: 37px;
-      letter-spacing: -1px;
-
-      &--bold {
-         font-weight: bold;
-      }
-
-      &::before {
-         content: '';
-         display: inline-block;
-         position: absolute;
-         background-image: url(../img/logo.png);
-         background-repeat: no-repeat;
-         width: 40px;
-         height: 40px;
-         left: -24px;
-         background-image: url(../img/logo.png);
-
-      }
    }
 
    .nav {
@@ -240,7 +220,7 @@ a {
 }
 
 .aside {
-   padding-top: 42px;
+   padding-top: 33px;
    border-right: 1px solid #eee;
    border-bottom: 1px solid #eee;
    max-width: 245px;
@@ -249,17 +229,19 @@ a {
    &__title {
       font-size: 18px;
       color: #212121;
-      padding: 14px 16px;
+      padding: 12px 16px;
       border-bottom: 1px solid #eee;
       background-image: url(../img/lines.jpg);
       background-repeat: no-repeat;
       background-size: cover;
    }
+}
+
+.super-menu {
 
    &__item {
       font-size: 12px;
       border-bottom: 1px solid #eee;
-
    }
 
    &__link {
@@ -330,6 +312,7 @@ a {
 
 .news {
    width: 100%;
+   margin-bottom: 15px;
 }
 
 .device {
@@ -365,13 +348,13 @@ a {
 }
 
 .information {
-   padding-left: 30px;
+   padding-left: 38px;
    border-bottom: 1px solid #eee;
    flex: 1 1;
 }
 
 .startup {
-   padding: 28px 0;
+   padding: 10px 0;
    border-bottom: 1px solid #eee;
 
    &__text {
@@ -405,6 +388,11 @@ em {
       font-size: 15px;
       color: #ae3b44;
       margin-bottom: 25px;
+   }
+
+   &--second {
+      padding-top: 30px;
+      padding-bottom: 15px;
    }
 
    &__text {
@@ -554,8 +542,8 @@ em {
    justify-content: space-between;
    flex-grow: 1;
 
-   &__column--second,
-   &__column--third {
+   &-column--second,
+   &-column--third {
       padding-top: 35px;
    }
 }

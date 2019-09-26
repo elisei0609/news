@@ -39,7 +39,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 30px;
+  padding-right: 45px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -50,25 +50,6 @@ a {
 
 .header__logo {
   display: inline-block;
-  position: relative;
-  font-size: 37px;
-  letter-spacing: -1px;
-}
-
-.header__logo--bold {
-  font-weight: bold;
-}
-
-.header__logo::before {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  left: -24px;
-  background-image: url(../img/logo.png);
 }
 
 .header .nav {
@@ -250,7 +231,7 @@ a {
 }
 
 .aside {
-  padding-top: 42px;
+  padding-top: 33px;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
   max-width: 245px;
@@ -262,38 +243,38 @@ a {
 .aside__title {
   font-size: 18px;
   color: #212121;
-  padding: 14px 16px;
+  padding: 12px 16px;
   border-bottom: 1px solid #eee;
   background-image: url(../img/lines.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.aside__item {
+.super-menu__item {
   font-size: 12px;
   border-bottom: 1px solid #eee;
 }
 
-.aside__link {
+.super-menu__link {
   color: #000;
   display: block;
   padding: 14px 16px;
 }
 
-.aside__link:hover {
+.super-menu__link:hover {
   color: #ae3b44;
 }
 
-.aside__link:active {
+.super-menu__link:active {
   background-color: #ae3b44;
   color: #fff;
 }
 
-.aside__link--second {
+.super-menu__link--second {
   background-color: #f4f7f8;
 }
 
-.aside__link--third {
+.super-menu__link--third {
   padding-left: 59px;
   background-color: #eaeaea;
 }
@@ -342,6 +323,7 @@ a {
 
 .news {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .device {
@@ -389,7 +371,7 @@ a {
 }
 
 .information {
-  padding-left: 30px;
+  padding-left: 38px;
   border-bottom: 1px solid #eee;
   -webkit-box-flex: 1;
       -ms-flex: 1 1;
@@ -397,7 +379,7 @@ a {
 }
 
 .startup {
-  padding: 28px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -433,6 +415,11 @@ em {
   font-size: 15px;
   color: #ae3b44;
   margin-bottom: 25px;
+}
+
+.tools--second {
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .tools__text {

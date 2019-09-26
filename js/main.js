@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Addind / deleting class 'arrow--active' if clicked button was 'arrow'
   function toggleArrow() {
-    document.querySelector(".aside-menu").onclick = function(e) {
+    document.querySelector(".aside__menu").onclick = function(e) {
       e.preventDefault();
       if (
         e.target.className.includes("arrow") ||
